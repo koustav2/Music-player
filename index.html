@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter" />
+        <title>Music Player</title>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="any">
+    </head>
+    <body>
+        <header>
+            <!-- Nothing here. -->
+        </header>
+        <main>
+            <div class="bg">
+                <img src="images/bg.jpg" alt="bg">
+            </div>
+            <div class="player">
+                <audio id="audio" src=""></audio>
+
+                <div class="music-cover">
+                    <img src="images/cover-1.png" alt="">
+                </div>
+                <div class="music-info">
+                    <h2>Lost in the City Lights</h2>
+                    <h3>Cosmo Sheldrake</h3>
+                </div>
+                <div id="timeDisplay">
+                    <span id="timeElapsed">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="controls">
+                    <div class="buttons">
+                        <div class="prev">
+                            <img src="images/Stop_and_play_fill.svg" alt="prev">
+                        </div>
+                        <div class="play">
+                            <img src="images/play_fill.svg" alt="play">
+                        </div>
+                        <div class="next">
+                            <img src="images/Stop_and_play_fill_reverse.svg" alt="next">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <!-- Nothing here. -->
+        </footer>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
